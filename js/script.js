@@ -47,24 +47,25 @@ function initialize() {
 
   // Add Eventlisteners (Callback functions)
   btnAssignmentOperators.addEventListener("click", displayAssignment);
-  btnComparisonOperators.addEventListener("click", displayComparison);
-  btnArithmeticOperators.addEventListener("click", displayArithmetic);
-  btnBooleanOperators.addEventListener("click", displayBooleans);
-  btnIfElseStatements.addEventListener("click", displayIfElse);
-  btnSwitch.addEventListener("click", displaySwitch);
-  btnWhile.addEventListener("click", displayWhile);
-  btnDoWhile.addEventListener("click", displayDoWhile);
-  btnFor.addEventListener("click", displayFor);
-  btnForIn.addEventListener("click", displayForIn);
-  btnBreak.addEventListener("click", displayBreak);
-  bntContinue.addEventListener("click", displayContinue);
+  // btnComparisonOperators.addEventListener("click", displayComparison);
+  // btnArithmeticOperators.addEventListener("click", displayArithmetic);
+  // btnBooleanOperators.addEventListener("click", displayBooleans);
+  // btnIfElseStatements.addEventListener("click", displayIfElse);
+  // btnSwitch.addEventListener("click", displaySwitch);
+  // btnWhile.addEventListener("click", displayWhile);
+  // btnDoWhile.addEventListener("click", displayDoWhile);
+  // btnFor.addEventListener("click", displayFor);
+  // btnForIn.addEventListener("click", displayForIn);
+  // btnBreak.addEventListener("click", displayBreak);
+  // bntContinue.addEventListener("click", displayContinue);
 
 }
 
 // Add functions (Hint : Commit when functionality works !)
 
-function divAssignment(){
+function displayAssignment(){
   // Add functionality
+  console.warn("btnAssignment works...")
 }
 
 
